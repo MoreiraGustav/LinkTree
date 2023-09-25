@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt" class="dark">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/main.css" rel="stylesheet" />
+    <title>LinkTree</title>
+</head>
+<body id="body" class="bg-cover bg-top bg-center bg-no-repeat h-screen light-mode:bg-light-background dark:bg-dark-background">
+
+    <div class="container mx-auto py-12 px-4 flex items-center justify-center">
+        <div class="text-center">
+            <img id="perfilimg" src="/img/Avatar meu.png" alt="foto de perfil" class="w-28 mx-auto" />
+            <p class="font-medium mt-2  text-black dark:text-white">@Pacotada</p>
+            
+            <button id="toggleButton" class="bg-gray-700 text-white px-4 py-2 mt-8   rounded-full hover:bg-gray-600 transition duration-300" onclick="AlterarModo()">
+                <ion-icon name="sunny" class="text-black dark:text-white"></ion-icon>
+            </button>
+
+            <ul class="mt-8 space-y-8">
+                <li>
+                    <a
+                        href="https://www.instagram.com/pacotada/"
+                        target="_blank"
+                        class="block p-4 mt-8    bg-slate-400 border rounded-lg border-gray-300 hover:bg-gray-200 transition duration-300 "
+                    >Siga-me no Instagram</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://soundcloud.com/pacotada"
+                        target="_blank"
+                        class="block p-4 bg-slate-400 border rounded-lg border-gray-300 hover:bg-gray-200 transition duration-300"
+                    >Siga-me no Soundcloud</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://twitter.com/pacoteBFR"
+                        target="_blank"
+                        class="block p-4 bg-slate-400 border rounded-lg border-gray-300 hover:bg-gray-200 transition duration-300"
+                    >Siga-me no Twitter</a
+                    >
+                </li>
+            </ul>
+            <div class="flex justify-center items-center mt-8">
+                <a href="https://soundcloud.com/pacotada" target="_blank" class="text-3xl text-black text-gray-400 mx-2 dark:text-gray-300"><ion-icon name="logo-soundcloud"></ion-icon></a>
+                <a href="https://open.spotify.com/intl-pt/artist/5dvslple9oQqjgabRTlmLv?si=r1hnx2OEQnab6hZ1tLaqFA" target="_blank" class="text-3xl text-black  mx-2 dark:text-gray-300"><ion-icon name="logo-youtube"></ion-icon></a>
+                <a href="https://www.instagram.com/pacotada/" target="_blank" class="text-3xl text-black  mx-2 dark:text-gray-300 "><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://twitter.com/pacoteBFR" target="_blank" class="text-3xl text-black mx-2 dark:text-gray-300"><ion-icon name="logo-twitter"></ion-icon></a>
+            </div>
+            <div class="text-center mt-8">
+                <p class="text-black dark:text-gray-400 text-sm">Feito com <ion-icon name="heart" class="text-black dark:text-white"></ion-icon> por <a href="https://www.instagram.com/pacotada/" target="_blank" class="text-black dark:text-gray-400">@Pacotada</a></p>  
+            </div>
+
+           
+           
+        </div>
+    </div>
+ <script src="script.js"> </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
